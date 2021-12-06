@@ -8,6 +8,10 @@ The dashboard displays average species height as a bar chart and planet diameter
 
 Uses recharts to display the data. 
 
+#### App has been deployed and hosted on github.
+
+https://rachalsmith.github.io/deployed-recharts-react-star-wars-api/
+
 ### Usage
 
 #### Install dependencies
