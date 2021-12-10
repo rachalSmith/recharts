@@ -88,8 +88,8 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <BarChartComponent BarChartData={barData}/>
-      <LineChartComponent LineChartData={lineData}/>
+      <BarChartComponent barChartData={barData}/>
+      <LineChartComponent lineChartData={lineData}/>
     </div>
   );
 }

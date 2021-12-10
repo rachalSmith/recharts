@@ -1,7 +1,7 @@
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import PropTyes from 'prop-types';
 
-
-function BarChartComponent({ BarChartData }) {
+function BarChartComponent({ barChartData }) {
 
     return (
 
@@ -14,7 +14,7 @@ function BarChartComponent({ BarChartData }) {
                 <BarChart
                     width={500}
                     height={300}
-                    data={BarChartData}
+                    data={barChartData}
                     margin={{
                         top: 5,
                         right: 30,
@@ -54,3 +54,7 @@ function BarChartComponent({ BarChartData }) {
 }
 
 export default BarChartComponent;
+
+BarChartComponent.propTyes = {
+    BarChartData: PropTyes.number.isRequired
+  }

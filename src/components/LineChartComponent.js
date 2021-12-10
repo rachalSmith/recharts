@@ -1,7 +1,7 @@
 import { ScatterChart, Scatter, XAxis, YAxis, ZAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import PropTyes from 'prop-types';
 
-
-function LineChartComponent({ LineChartData }) {
+function LineChartComponent({ lineChartData }) {
 
    return (
 
@@ -56,7 +56,7 @@ function LineChartComponent({ LineChartData }) {
               color: "#fff"
             }}
           />
-          <Scatter name="name" data={LineChartData} fill="#8884d8" />
+          <Scatter name="name" data={lineChartData} fill="#8884d8" />
         </ScatterChart>
       </ResponsiveContainer>
 
@@ -65,3 +65,7 @@ function LineChartComponent({ LineChartData }) {
 }
 
 export default LineChartComponent;
+
+LineChartComponent.propTyes = {
+  LineChartData: PropTyes.number.isRequired
+}
