@@ -14,6 +14,8 @@ https://rachalsmith.github.io/deployed-recharts-react-star-wars-api/
 
 ### Usage
 
+Manually tested and working with Node version: 16.13.0
+
 #### Install dependencies
 
 ```bash
