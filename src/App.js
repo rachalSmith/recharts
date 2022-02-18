@@ -1,7 +1,7 @@
 import './App.css';
-import BarChartComponent from './components/BarChartComponent';
-import LineChartComponent from './components/LineChartComponent';
-import Header from './components/Header';
+import BarChartComponent from './components/barChartComponent/BarChartComponent';
+import LineChartComponent from './components/lineChartComponent/LineChartComponent';
+import Header from './components/header/Header';
 
 import { useState, useEffect } from 'react';
 
