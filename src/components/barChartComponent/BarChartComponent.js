@@ -5,7 +5,7 @@ function BarChartComponent({ barChartData }) {
 
     return (
 
-        <div className="bar-chart-box">
+        <div className="bar-chart-box" data-testid="find-me">
 
             <h3 className="text">Average Height of Species</h3>
 
